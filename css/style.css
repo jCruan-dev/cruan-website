@@ -3,6 +3,8 @@ Yamanaka Flowers - Color Palette
 Muted Brown: #4A3B32 (body text)
 Floral White: #FFF8F0 (page background)
 Forest Green: #2F5D3A (header, footer, headings)
+Blossom Pink: #E8A0BF (button, hover, accents)
+Pastel Rose: #F6DCE6 (hero background)
 */
 
 /* Base style */
@@ -68,3 +70,63 @@ img {
     padding: 0;
     list-style: none;
 }
+
+.main-nav a {
+    display: block;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    color: #FFF8F0;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.main-nav a:hover, .main-nav a:focus {
+    background-color: #E8A0BF;
+    color: #2F5D3A;
+}
+
+/* Sections */
+main section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+main section + section {
+    margin-top: 1.5rem;
+}
+
+/* Hero */
+main .hero {
+    max-width: none;
+    margin: 0;
+    padding: 5rem 1.5rem;
+    text-align: center;
+    background-color: #F6DCE6
+}
+
+.hero h1 {
+    max-width: 18ch;
+    margin: 0 auto 1rem;
+    font-size: 2rem;
+}
+
+.tagline {
+    max-width: 55ch;
+    margin: 0 auto 2rem;
+    font-size: 1.2rem;
+}
+
+/* call to action button */
+.cta-button {
+    display: inline-block;
+    padding: 0.9rem 2.2rem;
+    border-radius: 999px;
+    background-color: #2F5D3A;
+    color: #FFF8F0;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
