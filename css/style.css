@@ -5,6 +5,7 @@ Floral White: #FFF8F0 (page background)
 Forest Green: #2F5D3A (header, footer, headings)
 Blossom Pink: #E8A0BF (button, hover, accents)
 Pastel Rose: #F6DCE6 (hero background)
+Cream Can: #F4C95D (button hover)
 */
 
 /* Base style */
@@ -128,5 +129,59 @@ main .hero {
     font-weight: 600;
     text-decoration: none;
     transition: background-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+.cta-button:hover, .cta-button:focus {
+    background-color: #F4C95D;
+    color: #2F5D3A;
+    text-decoration: underline;
+}
+
+/* About */
+.about p {
+    max-width: 65ch;
+}
+
+/* Highlights */
+.feature-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.feature {
+    padding: 1.5rem;
+    border-left: 5px solid #E8A0BF;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+
+.feature h3 {
+    margin: 0 0 0.5rem;
+    font-size: 1.2rem;
+}
+
+.feature p {
+    margin: 0;
+}
+
+/* Footer */
+.site-footer {
+    margin-top: 3rem;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    background-color: #2F5D3A;
+    color: #FFF8F0;
+}
+
+.site-footer p {
+    margin: 0.25rem 0;
+}
+
+/* current page in nav */
+.main-nav a.active {
+    background-color: #FFF8F0;
+    color: #2F5D3A;
 }
 
