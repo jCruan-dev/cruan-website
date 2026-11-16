@@ -1,0 +1,70 @@
+/*
+Yamanaka Flowers - Color Palette 
+Muted Brown: #4A3B32 (body text)
+Floral White: #FFF8F0 (page background)
+Forest Green: #2F5D3A (header, footer, headings)
+*/
+
+/* Base style */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Nunito", sana-serif;
+    font-size: 1.05rem; /* rem: because it scaes dynamically */
+    line-height: 1.7;
+    color: #4A3B32;
+    background-color: #FFF8F0;
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+    color: #2F5D3A;
+    line-height: 1.25;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Header and Navs */
+.site-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    background-color: #2F5D3A;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.brand-name {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #FFF8F0
+}
+
+.majn-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
