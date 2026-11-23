@@ -16,7 +16,7 @@ Cream Can: #F4C95D (button hover)
 body {
     margin: 0;
     font-family: "Nunito", sana-serif;
-    font-size: 1.05rem; /* rem: because it scaes dynamically */
+    font-size: 1.05rem; /* rem: because it scales dynamically */
     line-height: 1.7;
     color: #4A3B32;
     background-color: #FFF8F0;
@@ -51,16 +51,18 @@ img {
 }
 
 .logo {
-    width: 48px;
-    height: 48px;
-    object-fit: contain;
+    width: 10rem;
+    height: 10rem;
+    /* object-fit: contain; */
+    align-items: center;
 }
 
 .brand-name {
     font-family: "Playfair Display", serif;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #FFF8F0
+    color: #FFF8F0;
+    text-align: center;
 }
 
 .majn-nav ul {
