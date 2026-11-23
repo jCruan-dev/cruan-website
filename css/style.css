@@ -15,7 +15,7 @@ Cream Can: #F4C95D (button hover)
 
 body {
     margin: 0;
-    font-family: "Nunito", sana-serif;
+    font-family: "Nunito", sans-serif;
     font-size: 1.05rem; /* rem: because it scales dynamically */
     line-height: 1.7;
     color: #4A3B32;
@@ -62,15 +62,6 @@ img {
     font-weight: 700;
     color: #FFF8F0;
     text-align: center;
-}
-
-.majn-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin: 0;
-    padding: 0;
-    list-style: none;
 }
 
 .main-nav a {
