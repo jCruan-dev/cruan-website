@@ -53,8 +53,7 @@ img {
 .logo {
     width: 10rem;
     height: 10rem;
-    /* object-fit: contain; */
-    align-items: center;
+    object-fit: contain;
 }
 
 .brand-name {
@@ -142,6 +141,20 @@ main .hero {
 /* About */
 .about p {
     max-width: 65ch;
+}
+
+.arrangement-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.625rem;
+    margin-top: 1.5rem;
+}
+
+.arrangement-grid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 /* Highlights */
